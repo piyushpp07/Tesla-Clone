@@ -5,7 +5,7 @@ import { StyleSheet, Text, View, ImageBackground } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <CarItem />
+      <CarItem name={"Model S"} tagline={"Order online for"} taglineCTA={"Touchless Delivery"} image={require('./assets/images/ModelS.jpeg')} />
 
     </View>
   );
